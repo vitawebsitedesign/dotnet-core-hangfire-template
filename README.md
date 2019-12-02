@@ -9,7 +9,7 @@ git clone git@github.com:vitawebsitedesign/dotnet-core-hangfire-template.git
 # Usage
 There is some example API endpoint and Hangfire task code.
 
-You can start editing the template to your liking, but if you want to try it out, follow instructions in below section.
+You can start editing the template to your liking, but if you want to actually give the code a spin, follow instructions in below section.
 
 # Demo
 ```sql
@@ -32,6 +32,7 @@ PRIMARY KEY CLUSTERED
 GO
 ```
 
+1. Run above sql in [SSMS](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
 1. Open project in Visual Studio
 1. Add your connection strings to `HangfireExample/connectionstrings.json`
 1. Run project via Visual Studio
