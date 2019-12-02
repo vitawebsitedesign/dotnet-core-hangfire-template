@@ -1,16 +1,17 @@
-### What
+# What
 A .NET Core 3 API project template, with Hangfire configured (including 3 queues).
 
-### Install
+# Install
 ```console
 git clone git@github.com:vitawebsitedesign/dotnet-core-hangfire-template.git
 ```
 
-### Usage
+# Usage
 There is some example API endpoint and Hangfire task code.
 
-You can start editing the template to your liking, but if you want to try it out, follow below instructions.
+You can start editing the template to your liking, but if you want to try it out, follow instructions in below section.
 
+# Demo
 ```sql
 CREATE DATABASE HangfireTest;
 GO
@@ -34,5 +35,5 @@ GO
 1. Open project in Visual Studio
 1. Add your connection strings to `HangfireExample/connectionstrings.json`
 1. Run project via Visual Studio
-1. Goto /api/v1/entities/carseny
-1. Goto /hangfire & view successful jobs
+1. Goto `/api/v1/entities/carseny`
+1. Goto `/hangfire` to view successful job
